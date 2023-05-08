@@ -1,7 +1,6 @@
 {
   "name": "js",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,5 +11,14 @@
     "eslint": "^8.39.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudoexc/animedia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sudoexc/animedia/issues"
+  },
+  "homepage": "https://github.com/sudoexc/animedia#readme",
+  "description": ""
 }
