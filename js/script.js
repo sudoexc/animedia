@@ -22,8 +22,8 @@ const personalAnimeDB = {
 
 function rememberMyAnimes() {
 	for (let i = 0; i < 2; i++) {
-		const a = prompt('Один из последних просмотренних фильмов?', ''),
-			b = +prompt('Насколько его оцените?', '');
+		const a = prompt('Один из последних просмотренних фильмов?', '').trim(),
+			b = +prompt('Насколько его оцените?', '').trim();
 	
 		if(a != null && b != null && a != '' && b != '' && a.length < 50) {
 			personalAnimeDB.movies[a] = b;
